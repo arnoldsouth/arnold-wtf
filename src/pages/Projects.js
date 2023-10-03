@@ -12,12 +12,13 @@ const Projects = () => {
       title="Projects"
       description="Learn about AJ Southammavong's projects."
     >
-      <article className="post markdown" id="projects">
+      <article className="post" id="projects">
         <header>
           <div className="title">
             <h2>
               <Link to="/projects">Projects</Link>
             </h2>
+
             <p>Recent works</p>
           </div>
         </header>

@@ -13,6 +13,8 @@ import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
 import { skills, categories } from '../data/resume/skills';
+import ContactIcons from '../components/Contact/ContactIcons';
+import ResumeLink from '../components/Resume/ResumeLink';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
@@ -31,6 +33,9 @@ const Resume = () => (
           <h2>
             <Link to="/resume">Resume</Link>
           </h2>
+
+          <ResumeLink />
+
           {/* <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

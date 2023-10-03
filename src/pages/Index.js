@@ -27,8 +27,26 @@ const Index = () => (
         </header>
         <p id="intro">
           <div className="logo side-by-side-img">
-            <img src={`${PUBLIC_URL}/images/touka-chewing-stick.png`} alt="" />
-            <img src={`${PUBLIC_URL}/images/touka-baby-zebra.png`} alt="" />
+            <a
+              href="https://www.instagram.com/toukachow/"
+              target="_blank"
+              rel="noreferrer"
+              className="logo"
+            >
+              <img
+                src={`${PUBLIC_URL}/images/touka-chewing-stick.png`}
+                alt=""
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/toukachow/"
+              target="_blank"
+              rel="noreferrer"
+              className="logo"
+            >
+              <img src={`${PUBLIC_URL}/images/touka-baby-zebra.png`} alt="" />
+            </a>
           </div>
 
           {/* Welcome to my website. Please feel free to read more{' '}
